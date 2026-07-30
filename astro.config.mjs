@@ -215,6 +215,7 @@ if (contentConfig.enhanceCodeBlock !== false) shikiTransformers.push(collapsible
 // https://astro.build/config
 export default defineConfig({
   site: yamlConfig.site.url,
+  base: '/vac123', 
   output: 'static',
   compressHTML: true,
   markdown: {
