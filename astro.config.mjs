@@ -294,11 +294,11 @@ export default defineConfig({
   // Single-locale sites skip this entirely — no /[lang]/ routes are generated.
   ...(hasMultipleLocales && {
     i18n: {
-      defaultLocale: i18nDefaultLocale,
-      locales: i18nLocales,
-      routing: {
-        prefixDefaultLocale: false,
-      },
+    defaultLocale: 'zh',
+    locales: ['zh'],   // 强制只使用中文
+    routing: {
+      prefixDefaultLocale: false,
+    },
     },
   }),
   prefetch: {
