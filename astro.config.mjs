@@ -292,15 +292,6 @@ export default defineConfig({
   },
   // Only enable Astro i18n routing when multiple locales are configured.
   // Single-locale sites skip this entirely — no /[lang]/ routes are generated.
-  ...(hasMultipleLocales && {
-    i18n: {
-    defaultLocale: 'zh',
-    locales: ['zh'],   // 强制只使用中文
-    routing: {
-      prefixDefaultLocale: false,
-    },
-    },
-  }),
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport',
