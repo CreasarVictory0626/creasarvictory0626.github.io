@@ -216,6 +216,13 @@ if (contentConfig.enhanceCodeBlock !== false) shikiTransformers.push(collapsible
 export default defineConfig({
   site: yamlConfig.site.url,
   base: '/vac123', 
+  i18n: {                      // 👈 加在这里
+    defaultLocale: 'zh',
+    locales: ['zh'],
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
   output: 'static',
   compressHTML: true,
   markdown: {
