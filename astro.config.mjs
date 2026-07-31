@@ -215,7 +215,7 @@ if (contentConfig.enhanceCodeBlock !== false) shikiTransformers.push(collapsible
 // https://astro.build/config
 export default defineConfig({
   site: yamlConfig.site.url,
-  base: '/vac123', 
+  base: '/', 
   i18n: {                      // 👈 加在这里
     defaultLocale: 'zh',
     locales: ['zh'],
