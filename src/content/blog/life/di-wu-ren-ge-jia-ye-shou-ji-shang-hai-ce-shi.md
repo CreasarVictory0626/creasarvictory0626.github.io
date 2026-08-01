@@ -7,16 +7,16 @@ excludeFromSummary: false
 math: false
 quiz: false
 date: 2026-08-01 21:30:52
-updated: 2026-08-01 23:36:36
+updated: 2026-08-01 23:47:54
 categories:
   - [笔记]
 tags:
   - 第五人格，加页手记，游戏
 description: 测试一下加页手记中拐杖的伤害数值
 ---
-![BlockNote image](https://raw.githubusercontent.com/CreasarVictory0626/img-bed/main/img/200px-%E5%8A%A0%E9%A1%B5%E6%89%8B%E8%AE%B0_%E5%A5%87%E7%8F%8D%E5%93%81%E8%B4%A8%E9%81%93%E5%85%B7_%E5%BA%87%E6%8A%A4%E8%80%85%E4%B9%8B%E6%9D%96.png)![200px-加页手记\_奇珍品质道具\_庇护者之杖.png)](!\[]\(https://raw.githubusercontent.com/CreasarVictory0626/img-bed/main/img/200px-加页手记_奇珍品质道具_庇护者之杖.png\))
+![————————————————————](https://raw.githubusercontent.com/CreasarVictory0626/img-bed/main/img/200px-%E5%8A%A0%E9%A1%B5%E6%89%8B%E8%AE%B0_%E5%A5%87%E7%8F%8D%E5%93%81%E8%B4%A8%E9%81%93%E5%85%B7_%E5%BA%87%E6%8A%A4%E8%80%85%E4%B9%8B%E6%9D%96.png)
 
-初始轻击
+————————————————————
 
 3 次解决小怪
 
