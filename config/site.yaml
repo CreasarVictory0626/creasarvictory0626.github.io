@@ -86,6 +86,7 @@ categoryMap:
 #   image: 封面图片路径（相对于 public 目录）
 #   description: 分类描述文字，显示在卡片上
 # -----------------------------------------------------------------------------
+  life: life
 featuredCategories:
   - link: life # 对应 categoryMap 中 随笔: life
     label: 随笔
