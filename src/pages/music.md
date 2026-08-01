@@ -8,19 +8,19 @@ description: "我喜欢的音乐"
 
 使用 `{% media audio %}` 标签嵌入网易云音乐或 QQ 音乐歌单：
 
-<!-- ```markdown
+```markdown
 {% media audio %}
-- title: 许嵩
+- title: 我的歌单
   list:
-    - https://music.163.com/#/my/m/music/playlist?id=17981074620
+    - https://music.163.com/#/playlist?id=你的歌单ID
 {% endmedia %}
-``` -->
+```
 
 {% media audio %}
+- title: 悲哀收藏夹
+  list:
+    - https://music.163.com/#/playlist?id=6990784696
 - title: 许嵩
   list:
-    - https://music.163.com/#/my/m/music/playlist?id=17981074620
-- title: 我喜欢的歌单
-  list:
-    - https://music.163.com/#/my/m/music/playlist?id=875679570
+    - https://music.163.com/#/playlist?id=17981074620
 {% endmedia %}
