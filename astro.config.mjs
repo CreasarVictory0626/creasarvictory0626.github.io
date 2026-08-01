@@ -36,6 +36,14 @@ import { remarkShokaSpoiler } from './src/lib/markdown/remark-shoka-spoiler.ts';
 import { collapsibleCodeTransformer } from './src/lib/markdown/shiki-collapsible-transformer.ts';
 import { shokaMetaTransformer } from './src/lib/markdown/shiki-meta-transformer.ts';
 
+import imjpWritenex from '@imjp/writenex-astro';
+
+// 1. 在文件顶部，其他 import 语句之后，添加这一行导入
+//import writeneo from '@writeneo/astro';
+
+
+
+
 // Load YAML config directly with Node.js (before Vite plugins are available)
 // This is only used in astro.config.mjs - other files use @rollup/plugin-yaml
 function loadConfigForAstro() {
@@ -235,24 +243,16 @@ export default defineConfig({
       transformers: shikiTransformers,
     },
   },
-  integrations: [
-    react(),
-    sitemap(),
-    icon({
-      include: {
-        gg: ['*'],
-        'fa6-regular': ['*'],
-        'fa6-solid': ['*'],
-        ri: ['*'],
-      },
-    }),
-    pagefind(),
-    mermaid({
-      autoTheme: true,
-    }),
-    robotsTxt(robotsConfig || {}),
-    ...(momentsConfig.enabled ? [momentsRoutes(momentsConfig)] : []),
-  ],
+  integrations: [react(), sitemap(), icon({
+    include: {
+      gg: ['*'],
+      'fa6-regular': ['*'],
+      'fa6-solid': ['*'],
+      ri: ['*'],
+    },
+  }), pagefind(), mermaid({
+    autoTheme: true,
+  }), robotsTxt(robotsConfig || {}), ...(momentsConfig.enabled ? [momentsRoutes(momentsConfig)] : []), imjpWritenex()],
   ...(momentsConfig.enabled
     ? {
         adapter: node({ mode: 'standalone' }),
