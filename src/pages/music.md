@@ -22,5 +22,5 @@ description: "我喜欢的音乐"
     - https://music.163.com/#/playlist?id=6990784696
 - title: 许嵩
   list:
-    - https://music.163.com/#/playlist?id=17981074620
+    - https://music.163.com/#/album?id=16953
 {% endmedia %}
