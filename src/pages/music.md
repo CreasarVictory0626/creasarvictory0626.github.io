@@ -4,9 +4,8 @@ title: "歌单"
 description: "我喜欢的音乐"
 ---
 
-这里可以放你喜欢的音乐歌单。
 
-使用 `{% media audio %}` 标签嵌入网易云音乐或 QQ 音乐歌单：
+
 
 ```markdown
 {% media audio %}
