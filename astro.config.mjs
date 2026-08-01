@@ -223,6 +223,14 @@ if (contentConfig.enhanceCodeBlock !== false) shikiTransformers.push(collapsible
 // https://astro.build/config
 export default defineConfig({
   site: yamlConfig.site.url,
+  base: '/', 
+  i18n: {                      // 👈 加在这里
+    defaultLocale: 'zh',
+    locales: ['zh'],
+    routing: {
+      prefixDefaultLocale: false,
+    },
+  },
   output: 'static',
   compressHTML: true,
   markdown: {
@@ -284,15 +292,6 @@ export default defineConfig({
   },
   // Only enable Astro i18n routing when multiple locales are configured.
   // Single-locale sites skip this entirely — no /[lang]/ routes are generated.
-  ...(hasMultipleLocales && {
-    i18n: {
-      defaultLocale: i18nDefaultLocale,
-      locales: i18nLocales,
-      routing: {
-        prefixDefaultLocale: false,
-      },
-    },
-  }),
   prefetch: {
     prefetchAll: true,
     defaultStrategy: 'viewport',
