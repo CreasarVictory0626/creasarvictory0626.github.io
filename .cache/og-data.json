@@ -17,5 +17,16 @@
       "error": "Request timeout"
     },
     "timestamp": 1785564397743
+  },
+  "https://music.163.com/#/my/m/music/playlist?id=17981074620": {
+    "data": {
+      "originUrl": "https://music.163.com/#/my/m/music/playlist?id=17981074620",
+      "url": "https://music.163.com/",
+      "title": "网易云音乐",
+      "description": "网易云音乐是一款专注于发现与分享的音乐产品，依托专业音乐人、DJ、好友推荐及社交功能，为用户打造全新的音乐生活。",
+      "image": "http://p3.music.126.net/tBTNafgjNnTL1KlZMt7lVA==/18885211718935735.jpg",
+      "logo": "https://s1.music.126.net/style/favicon.ico?v20180823"
+    },
+    "timestamp": 1785584669163
   }
 }
