@@ -13,7 +13,7 @@
 site:
   title: 松倾寒の博客 # 网站名称
   alternate: vac # 网站英文名称 用于页脚、Logo、@ handle 等
-  subtitle: WA 的一声就哭了 # 网站副标题
+  subtitle: 做真理的信徒，也包容每一个谬误 # 网站副标题
   name: vac # 作者名称 - 请修改为你的名字
   description: 记录生活游戏技术 # 网站描述
   avatar: /img/avatar.webp # 网站头像
