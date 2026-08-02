@@ -12,13 +12,13 @@
 # =============================================================================
 site:
   title: 松倾寒の博客 # 网站名称
-  alternate: Vac # 网站英文名称 用于页脚、Logo、@ handle 等
+  alternate: vac # 网站英文名称 用于页脚、Logo、@ handle 等
   subtitle: 做真理的信徒，也包容每一个谬误 # 网站副标题
-  name: Vac # 作者名称 - 请修改为你的名字
+  name: vac # 作者名称 - 请修改为你的名字
   description: 记录生活游戏技术 # 网站描述
   avatar: /img/avatar.webp # 网站头像
   showLogo: false # 是否显示 Logo
-  author: Vac # 作者名称 - 请修改为你的名字
+  author: vac # 作者名称 - 请修改为你的名字
   url: https://creasarvictory0626.github.io/ # 站点 URL 用于 RSS 和 SEO
   defaultOgImage: /img/avatar.webp # 默认 Open Graph 图片
   startYear: 2026 # 建站年份
