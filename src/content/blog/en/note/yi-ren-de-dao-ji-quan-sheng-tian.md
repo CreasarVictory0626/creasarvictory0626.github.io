@@ -1,4 +1,5 @@
 ---
+link: 'note/yi-ren-de-dao-ji-quan-sheng-tian'
 title: 一人得道
 draft: false
 sticky: false

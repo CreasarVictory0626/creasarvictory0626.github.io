@@ -1,4 +1,5 @@
 ---
+link: 'life/di-wu-ren-ge-jia-ye-shou-ji-shang-hai-ce-shi'
 title: 第五人格加页手记伤害测试
 draft: false
 sticky: false
